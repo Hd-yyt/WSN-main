@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Black">
+    <option name="sdkName" value="PatchSTG5" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="PatchSTG" project-jdk-type="Python SDK" />
+  <component name="UnattendedHostPersistenceState">
+    <option name="openedFilesInfos">
+      <list>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/README.md" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="9311" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/main.py" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="3600" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/models/model.py" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="367" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/config/wind.conf" />
+        </OpenedFileInfo>
+      </list>
+    </option>
+  </component>
+</project>

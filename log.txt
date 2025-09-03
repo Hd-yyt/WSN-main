@@ -1,0 +1,58 @@
+------------ 配置选项 -------------
+config: ./config/wind.conf
+cuda: 0
+seed: 1
+batch_size: 16
+max_epoch: 60
+learning_rate: 0.002
+weight_decay: 0.001
+input_len: 48
+output_len: 24
+train_ratio: 0.7
+val_ratio: 0.1
+test_ratio: 0.2
+layers: 5
+tem_patchsize: 24
+tem_patchnum: 2
+factors: 32
+recur_times: 11
+spa_patchsize: 2
+spa_patchnum: 2048
+node_num: 3850
+input_dims: 64
+node_dims: 32
+traffic_file: ./data/Wind/wind.npz
+meta_file: ./data/Wind/wind_meta.csv
+adj_file: ./data/Wind/adj_geo.npy
+model_file: ./cpt/wind_model
+log_file: ./log/wind_log
+dataset_name: wind
+-------------- 结束 ----------------
+
+------------ 加载数据 -------------
+Shape of data: (17544, 3850, 1)
+Shape of locations: (2, 3850)
+Shape of Train: (12210, 24, 3850, 1)
+Shape of Validation: (1683, 24, 3850, 1)
+Shape of Test: (3438, 24, 3850, 1)
+Mean: 34.638126373291016 & Std: 28.72498893737793
+------------ 结束 -------------
+
+======================TEST MODE======================
+pred 形狀: (3438, 24, 3850, 1), label 形狀: (3438, 24, 3850, 1)
+步驟 0, mae: 7.2618, rmse: 10.8485, mape: 28.2743, mse: 117.6905
+步驟 1, mae: 8.5533, rmse: 12.5876, mape: 33.3108, mse: 158.4485
+步驟 2, mae: 9.3821, rmse: 13.7303, mape: 36.5502, mse: 188.5217
+步驟 3, mae: 10.0096, rmse: 14.6139, mape: 39.1459, mse: 213.5660
+步驟 4, mae: 10.4971, rmse: 15.3227, mape: 40.9645, mse: 234.7853
+步驟 5, mae: 10.8923, rmse: 15.9198, mape: 42.2815, mse: 253.4389
+步驟 6, mae: 11.2370, rmse: 16.4379, mape: 43.5358, mse: 270.2055
+步驟 7, mae: 11.5389, rmse: 16.8781, mape: 44.9701, mse: 284.8715
+步驟 8, mae: 11.8095, rmse: 17.2729, mape: 46.2821, mse: 298.3530
+步驟 9, mae: 12.0470, rmse: 17.6329, mape: 47.2541, mse: 310.9193
+步驟 10, mae: 12.2483, rmse: 17.9518, mape: 47.9293, mse: 322.2673
+步驟 11, mae: 12.4315, rmse: 18.2425, mape: 48.6107, mse: 332.7896
+步驟 12, mae: 12.6046, rmse: 18.5068, mape: 49.4274, mse: 342.5021
+步驟 13, mae: 12.7563, rmse: 18.7536, mape: 49.9320, mse: 351.6982
+步驟 14, mae: 12.8788, rmse: 18.9709, mape: 50.1649, mse: 359.8965
+步驟 15, mae: 12.9958, rmse: 19.1744, mape: 50.4079, mse: 367.6562
