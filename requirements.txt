@@ -1,0 +1,8 @@
+# Install PyTorch and torchvision for your device before these dependencies.
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.5.2
+tqdm==4.67.1
+timm==1.0.12
+geoclip==1.2.0
+transformers==4.46.3

@@ -1,0 +1,32 @@
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+.pytest_cache/
+
+# Training outputs
+outputs/
+log/
+cpt/
+*.pt
+*.pth
+*.ckpt
+
+# Downloaded data and dataset archives
+/data/*
+!/data/RainfallUK/
+!/data/README.md
+*.zip
+*.tar
+*.tar.gz
+*.tar.zst
+*.part
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
